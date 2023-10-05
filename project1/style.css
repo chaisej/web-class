@@ -1,0 +1,617 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+}
+
+.headertitle {
+    font-weight: 100;
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    align: right;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: green;
+}
+
+
+.row {
+    display: flex;
+    padding: 20px;
+    background-color: black;
+}
+
+
+
+/*SECTIONS*/
+.book {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    /*background-image: url(images/galaxy.jpeg);
+    background-size: cover;
+    background-position: bottom;*/
+}
+
+.tropes {
+    width: 100vw;
+    height: 57vw;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    /*background-image: url(images/galaxy.jpeg);
+    background-size: cover;
+    background-position: bottom;*/
+
+}
+
+.quotes {
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+    position: relative;
+}
+
+.about {
+    width: 100vw;
+    height: 110vh;
+    background-color: black;
+    padding: 50px;
+    position: relative;
+}
+
+.characters {
+    width: 100vw;
+    height: 145vh;
+    background-color: black;
+    padding: 50px;
+    position: relative;
+}
+
+.series {
+    width: 100vw;
+    height: 140vh;
+    background-color: black;
+    position: relative;
+    padding: 40px;
+}
+
+.earthbutton {
+    background-image: url(images/moon.gif);
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    right: 50px;
+    z-index: 101;
+
+}
+
+.totop {
+    font-size: 10px;
+    color: #8C811C;
+    position: fixed;
+    right: 60px;
+    top: 90px;
+    font-weight: 700;
+
+}
+
+
+/*.author {
+    width: 100vw;
+    height: 110vh;
+    background-color: white;
+
+}*/
+
+/*SYNOPSIS*/
+.mockup {
+    background-image: url(images/fifthseason3d.png);
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 50px;
+    z-index: 10;
+}
+
+.titletext {
+    width: 90vw;
+    top: 75px;
+    left: 100px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 70px;
+}
+
+.titletext2 {
+    width: 90vw;
+    top: 75px;
+    left: 100px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 150px;
+}
+
+.synopsis {
+    width: 50vw;
+    color: white;
+    font-size: 20px;
+    line-height: 1.3;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/*TROPES SECTION*/
+.sectiontitle {
+    width: 100vw;  
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+}
+
+.tropesubtitle{
+    width: 100vw;  
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 170px;
+}
+
+
+.cover {
+    background-image: url(images/fifthseasoncover1.jpeg);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    left: 38vw;
+}
+
+.mercury {
+    background-image: url(images/mercury.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 10;
+}
+
+.mercurytext {
+    width: 200px;
+    top: 80px;
+    left: 50px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mars {
+    background-image: url(images/mars.png);
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 450px;
+    left: 255px;
+    z-index: 10;
+}
+
+.marstext {
+    width: 200px;
+    top: 70px;
+    left: 75px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.jupiter {
+    background-image: url(images/jupiter.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 720px;
+    left: 150px;
+    z-index: 10;
+}
+
+.jupitertext {
+    width: 200px;
+    top: 90px;
+    left: 50px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.neptune {
+    background-image: url(images/neptune.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    z-index: 10;
+}
+
+.neptunetext {
+    width: 200px;
+    top: 70px;
+    left: 40px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.saturn {
+    background-image: url(images/saturn.png);
+    width: 550px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 450px;
+    right: 155px;
+    z-index: 10;
+}
+
+.saturntext {
+    width: 200px;
+    top: 85px;
+    left: 175px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.venus {
+    background-image: url(images/venus.png);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 650px;
+    right: 75px;
+    z-index: 10;
+}
+
+.venustext {
+    width: 200px;
+    top: 130px;
+    left: 60px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+
+/* QUOTE SECTION*/
+.quote {
+    width: 90vw;
+    top: 75px;
+    left: 100px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 80px;
+    justify-content: center;
+    padding-top: 120px;
+
+}
+
+.attribute {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    opacity: .5;
+    position:absolute;
+    right: 50px;
+    bottom: 125px;
+}
+
+.quotehighlight{
+    color: #8C811C;
+}
+
+
+/*ABOUT THE BOOK*/
+.earthgif {
+    background-image: url(images/earth3.gif);
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    right: 10px;
+    bottom:10px;
+}
+
+.abouttitle {
+    font-size: 90px;
+    color: white;
+    font-weight:400;
+    position: absolute;
+    z-index: 20;
+
+}
+
+.abouttext {
+    font-size: 30px;
+    color: white;
+    font-weight:300;
+    position:absolute;
+    top: 200px;
+    width: 90vw;
+    line-height: 1.5;
+    z-index: 20;
+}
+
+
+
+/*CHAISE PICK*/
+
+.chaisetitle {
+    font-size: 80px;
+    color: white;
+    font-weight:400;
+    position: absolute;
+    z-index: 20;
+
+}
+
+.chaisetext {
+    font-size: 20px;
+    color: white;
+    font-weight:200;
+    position:absolute;
+    top: 200px;
+    width: 60vw;
+    line-height: 1.5;
+    z-index: 20;
+}
+
+
+.chaiserating {
+    font-size: 50px;
+    color: white;
+    font-weight:400;
+    top: 800px;
+    left:40vw;
+    position: absolute;
+
+
+}
+
+.fifthseasonart {
+    background-image: url(images/fifthseasonart1.jpeg);
+    width: 550px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10; 
+    right: 0;
+    top: 200px;
+}
+
+
+p {
+    margin: 20px;
+}
+
+.stars1 {
+    background-image: url(images/star.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    top: 870px;
+    left: 400px;
+}
+
+.stars2{
+    background-image: url(images/star.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    top: 870px;
+    left: 575px;
+}
+
+.stars3 {
+    background-image: url(images/star.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    top: 870px;
+    left: 740px;
+}
+
+.stars4 {
+    background-image: url(images/star.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    top: 870px;
+    left: 915px;
+}
+
+.stars5 {
+    background-image: url(images/star.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 10;
+    top: 870px;
+    left: 1090px;
+}
+
+.chaiserating2 {
+    font-size: 20px;
+    color: white;
+    font-weight:300;
+    top: 1100px;
+    left:33vw;
+    position: absolute;
+
+
+}
+
+/*SERIES AND AUTHOR*/
+.nk {
+    background-image: url(images/nk1.webp);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 500px;
+    left: 70vw;
+    z-index: 10;
+}
+
+.bookseries {
+    background-image: url(images/series.jpeg);
+    width: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 170px;
+    z-index: 10;
+
+}
+
+.seriestitle {
+    font-size: 80px;
+    color: white;
+    font-weight:400;
+    position: absolute;
+    z-index: 20;
+}
+
+.seriesname {
+    font-size: 30px;
+    color: white;
+    font-weight:400;
+    left:52vw;
+    top: 170px;
+
+    position: absolute;
+}
+
+.seriessubtitle {
+    font-size: 25px;
+    color: white;
+    font-weight:300;
+    left:52vw;
+    top: 225px;
+    position: absolute;
+    width: 600px;
+
+}
+
+.authorname{
+    font-size: 40px;
+    color: white;
+    font-weight:400;
+    left:54vw;
+    top: 540px;
+    position: absolute;
+
+}
+
+.authorsubtitle {
+    font-size: 25px;
+    color: white;
+    font-weight:300;
+    left:33vw;
+    top: 600px;
+    position: absolute;
+    width: 600px;
+}

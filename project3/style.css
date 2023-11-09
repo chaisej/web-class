@@ -1,0 +1,643 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Old Standard TT', serif;
+}
+
+#intro {
+    background-image: url(images/clock.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+
+}
+
+#title {
+    text-align: center;
+    background-color: rgba(0,0,0, .5);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column; 
+    /*these 3 properties align the child vertically and horizontally*/ 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight:600;
+    font-style: italic;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.btn {
+    color: white;
+    background-color: #4E8098;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 40px;
+    transition: all .5s;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.btn:hover {
+    background-color: white;
+    color: #4E8098;
+    padding: 25px 35px;
+    font-size: 25px;
+
+
+}
+
+.choosesister {
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+/*JOSEPHINE 1*/
+.josephine1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/letter.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.josephine1-title {
+    width: 28vw;
+    height: 50vh;
+    top: 30vh;
+    left: 36vw;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    z-index:99;
+}
+
+.btn-josephine1 {
+    color: rgb(232, 174, 104);
+    transition: all .5s;
+
+}
+
+.btn-josephine1:hover {
+    background-color: white;
+    color: rgb(11, 83, 81);
+}
+
+/*SISTERS 1*/
+.sisters1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/tea.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.sisters1-title {
+    font-size: 70px;
+    color: white;
+    text-align: right;
+    position:absolute;
+    z-index: 90;
+    width: 55vw;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.sisters1 p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px;
+    position:absolute;
+    z-index: 99;
+    width: 30vw;
+}
+
+.sisters2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/tear.jpeg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.sisters2 p {
+    color: rgb(11, 83, 81);
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 30px;
+    width: 40vw;
+    justify-content: center;
+    text-align: right;
+    right: 5vw;
+    position: absolute;
+    top: 5vh;
+    z-index: 99;
+}
+
+.btn-sisters2 {
+    color: #00A9A5;
+    transition: all .5s;
+    
+}
+
+.btn-sisters2:hover {
+    background-color: white;
+    color: rgb(11, 83, 81);
+
+}
+
+
+/*LOUISE 1*/
+.louise1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/chair.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.background-cover {
+    background-color: rgba(9, 35, 39, .6);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index:89;
+}
+
+.lone-text {
+    width: 65vw;
+    height: 80vh;
+    font-size: 75px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    z-index:99;
+}
+
+.louise2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/eye.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.louise2 p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1 { 
+    grid-area: 3 / 3 / 4 / 4; 
+
+}
+
+.div2 { 
+    grid-area: 1 / 1 / 4 / 2; 
+}
+
+.louise2-title {
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    position:absolute;
+    z-index: 90;
+    width: 35vw;
+    right: 50px;
+    bottom: 50px;
+
+}
+
+.left-corner-text {
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+
+
+.louise3{
+    width: 100vw;
+    height: 100vh;
+    /*background-image: url(images/cloud.jpg);
+    background-size: cover;
+    background-position: center;*/
+    position:relative;
+    background-color: #460000;
+}
+
+.louise3-title {
+    width: 65vw;
+    height: 80vh;
+    font-size: 100px;
+    padding: 20px;
+    color: #FB9D5E;
+    position: absolute;
+    z-index:99;
+    top: 20px;
+}
+
+.louise4{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/hand.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.louise4 p {
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 30px;
+    width: 50vw;
+    justify-content: center;
+    left: 25vw;
+    position: absolute;
+    top: 7vh;
+    z-index: 99;
+}
+
+.louise5 {
+    width: 100vw;
+    height: 100vh;
+    /*background-image: url(images/chair.jpg);
+    background-size: cover;
+    background-position: center;*/
+    background-color: #092327;
+    position:relative;
+}
+
+.louise5-title {
+    width: 100vw;
+    font-size: 130px;
+    color: #C8FFEC;
+    position: relative;
+    z-index:99;
+    text-align: center;
+    top: 35vh;
+}
+
+.louise5 p {
+    color: rgba(200, 255, 236, .2);
+    font-size: 60px;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 89;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    overflow: hidden;
+    justify-content: justify;
+    align-items: center;
+}
+
+.to-sisters3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #092327;
+    height: 10vh;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.btn-louise5 {
+    color: rgb(232, 174, 104);
+    font-size: 30px;
+    transition: all .5s;
+    
+}
+
+.btn-louise5:hover {
+    background-color: white;
+    color: rgb(11, 83, 81);
+
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #092327;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+
+}
+
+footer p {
+    font-size: 14px;
+    font-family: 'Inria Serif', serif;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+footer a{
+    color: white;
+
+}
+
+footer a:hover{
+    color: #90C2E7;
+
+}
+
+
+/*SISTERS 3*/
+.sisters3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/key.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    z-index: 10;
+}
+
+.sisters3-text {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    position:absolute;
+    z-index: 90;
+    width: 35vw;
+    right: 30px;
+    bottom: 50px;
+}
+
+.btn-sisters3 {
+    color: rgb(232, 174, 104);
+    font-size: 30px;
+    transition: all .5s;
+    
+}
+
+.btn-sisters3:hover {
+    background-color: white;
+    color: rgb(11, 83, 81);
+
+}
+
+/*LOUISE 6*/
+
+.louise6 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/elixir.webp);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.louise6-title {
+    left: 10vw;
+    width: 80vw;
+    font-size: 60px;
+    color: #092327;
+    position: absolute;
+    z-index:99;
+    text-align: center;
+    top: 9vh;
+}
+
+.louise6 p {
+    color: rgba(232, 174, 104, .8);
+    font-size: 20px;
+    width: 100vw;
+    height: 44vh;
+    position: absolute;
+    z-index: 89;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    overflow: hidden;
+    justify-content: justify;
+    align-items: center;
+}
+
+
+.btn-louise6 {
+    font-size: 30px;
+    transition: all .5s;
+
+    background-color: white;
+    color: rgb(11, 83, 81);
+    
+}
+
+.btn-louise6:hover {
+    background-color:  rgb(11, 83, 81);
+    color: white;
+}
+
+.to-sisters4 {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+/*JOSEPHINE 2*/
+.josephine2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/storm.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.josephine2-title {
+    left: 10vw;
+    width: 80vw;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    z-index:99;
+    text-align: center;
+    top: 42vh;
+}
+
+/*SISTERS 4*/
+
+.sisters4 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/triumph.jpeg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    z-index: 10;
+}
+
+.sisters4-title {
+    right: 5vw;
+    width: 30vw;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    z-index:99;
+    text-align: right;
+    top: 40vh;
+}
+
+.sisters4 p {
+    color: white;
+    font-size: 20px;
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    z-index: 89;
+    top: 5px;
+    left: 5px;
+    padding: 10px;
+    overflow: hidden;
+    justify-content: justify;
+    align-items: center;
+
+}
+
+.sisters5 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/key1.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    z-index: 10;
+}
+
+.sisters5-title {
+    left: 33vw;
+    width: 25vw;
+    font-size: 35px;
+    color: #0B5351;
+    position: absolute;
+    z-index:99;
+    text-align: right;
+    top: 31vh;
+}
+
+
+
+.sisters6 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/manshadow.jpeg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    z-index: 10;
+}
+
+.sisters6-title {
+    width: 100vw;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+    z-index:99;
+    text-align: center;
+    top: 40vh;
+}
+
+.sisters6 p {
+    color: white;
+    font-size: 25px;
+    width: 100vw;
+    position: absolute;
+    z-index: 89;
+    padding: 10px;
+    top: 50vh;
+    text-align: center;
+
+}
+
+.sisters7 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/scream.jpg);
+    background-size: cover;
+    background-position: top;
+    position:relative;
+    z-index: 10;
+}
+
+.sisters7-title {
+    width: 100vw;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+    z-index:99;
+    text-align: center;
+    top: 40vh;
+}
+
+.sisters8 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/chair.jpg);
+    background-size: cover;
+    background-position: top;
+    position:relative;
+    z-index: 10;
+}
+
+.sisters8-title {
+    width: 80vw;
+    font-size: 75px;
+    color: white;
+    position: absolute;
+    z-index:99;
+    text-align: left;
+    bottom: 20px;    
+    left: 15px;
+}
+
+mark {
+    color:#90C2E7;
+    background-color: transparent;
+}

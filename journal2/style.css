@@ -1,0 +1,114 @@
+@font-face {
+    font-family: constellations;
+    src: url(fonts/MidnightConstellations.ttf);
+}
+
+@font-face {
+    font-family: starco;
+    src: url(fonts/Starco.otf);
+}
+
+@font-face {
+    font-family: caviarDreams;
+    src: url(fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: caviarDreamsBold;
+    src: url(fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+    font-family: anticode;
+    src: url(fonts/Anticode.ttf);
+}
+
+@font-face {
+    font-family: codex;
+    src: url(fonts/codex.ttf);
+}
+
+@font-face {
+    font-family: techNoir;
+    src: url(fonts/TechNoir.ttf);
+}
+
+* {
+    box-sizing:border-box;
+}
+
+
+    body {
+        background-image: url(images/stars1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .container {
+        background-color: rgba(255, 245, 153, .9);
+        padding: 30px;
+        margin: 40px;
+    }
+
+    h1 {
+        font-family: constellations;
+        font-size: 100px;
+        letter-spacing: 10px;
+        color: rgb(0, 0, 74);
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: caviarDreams;
+        color: rgb(0, 0, 74);
+
+    }
+
+    mark {
+        background-color: transparent;
+        color: rgb(60, 155, 214);
+    }
+
+    p {
+        font-size: 25px;
+        line-height: 1.5;
+        color: rgb(0, 0, 74);
+        font-family: caviarDreamsBold;
+    }
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-image: url(images/computers.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 253, 199)
+
+    }
+
+    h2 {
+        font-size: 50px;
+        font-family: techNoir;
+        color: rgb(255, 253, 199)
+
+    }
+
+    p {
+        font-size: 15px;
+        color: rgb(255, 253, 199)
+    }
+
+    .container {
+        background-color: rgb(3, 0, 54, .95);
+    }
+
+
+
+}

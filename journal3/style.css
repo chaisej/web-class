@@ -1,0 +1,185 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ibarra Real Nova', serif;
+
+}
+
+.journalentry {
+    background-color: #FFE1ED;
+    width: 100vw;
+    height: 150vh;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
+
+.journaltitle {
+    font-size: 8vh;
+    color: #89095E;
+    margin-bottom: 2vh;
+
+}
+
+.journalauthor {
+    font-size: 3vh;
+    color: #77557A;
+    margin-bottom: 2vh;
+
+}
+
+.question1 {
+    font-size: 3vh;
+    color: #89095E;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    transition: .5s;
+
+}
+
+.question1:hover {
+    color: #C06294;
+    cursor: pointer;
+
+}
+
+.answer1 {
+    font-size: 2vh;
+    color: #1e415f;
+    padding-left: 5vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    display: none;
+
+}
+
+.question2 {
+    font-size: 3vh;
+    color: #89095E;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    transition: .5s;
+
+}
+
+.question2:hover {
+    color: #C06294;
+    cursor: pointer;
+
+}
+
+.answer2 {
+    font-size: 2vh;
+    color: #1e415f;
+    padding-left: 5vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    display: none;
+
+}
+
+.question3 {
+    font-size: 3vh;
+    color: #89095E;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    transition: .5s;
+
+}
+
+.question3:hover {
+    color: #C06294;
+    cursor: pointer;
+
+}
+
+.answer3 {
+    font-size: 2vh;
+    color: #1e415f;
+    padding-left: 5vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    display: none;
+
+}
+
+.question4 {
+    font-size: 3vh;
+    color: #89095E;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    transition: .5s;
+
+}
+
+.question4:hover {
+    color: #C06294;
+    cursor: pointer;
+
+}
+
+.answer4 {
+    font-size: 2vh;
+    color: #1e415f;
+    padding-left: 5vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    display: none;
+
+}
+
+.question5 {
+    font-size: 3vh;
+    color: #89095E;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    transition: .5s;
+
+}
+
+.question5:hover {
+    color: #C06294;
+    cursor: pointer;
+
+}
+
+.answer5 {
+    font-size: 2vh;
+    color: #1e415f;
+    padding-left: 5vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    line-height: 1.5;
+    display: none;
+
+}
+
+.journaltitle {
+    font-size: 10vh;
+}
